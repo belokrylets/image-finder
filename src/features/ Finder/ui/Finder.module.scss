@@ -1,0 +1,24 @@
+.Finder {
+  margin-top: 236px;
+  gap: 8px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  transition: margin-top 0.3s ease-in-out;
+}
+
+.Finder.searched {
+  margin: 0;
+}
+
+.input {
+  width: 420px;
+}
+
+@media (max-width: 550px) {
+  .Finder {
+    margin-top: 200px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

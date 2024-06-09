@@ -1,0 +1,12 @@
+@import "reset";
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+

@@ -1,0 +1,22 @@
+.ImageList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.ImageCard {
+  width: 204px;
+  height: 204px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 4px;
+
+}
+
+
+@media (max-width: 550px) {
+  .ImageCard {
+    width: 114px;
+    height: 114px;
+  }
+}
